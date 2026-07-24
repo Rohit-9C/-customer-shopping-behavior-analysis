@@ -1,62 +1,47 @@
-# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
+# 👨🏻‍💻 Customer Shopping Behavior — Data Analytics Project
 
-
+An end-to-end data analytics project on retail customer transaction data, covering data preparation and exploratory analysis in Python, business-question analysis in SQL, and an interactive dashboard in Power BI.
 
 ## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+The goal of this project is to translate raw retail transaction data into actionable business insights by:
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+✅ **Data Preparation & Exploratory Data Analysis (Python):** Cleaning and transforming the raw dataset for analysis.
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+✅ **Data Analysis (SQL):** Writing queries to extract insights on customer segments, loyalty patterns, and purchase drivers.
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+✅ **Visualization & Insights (Power BI):** Building an interactive dashboard highlighting key customer trends to support data-driven decisions.
+
+✅ **Report & Presentation:** Summarizing key findings and business recommendations in a project report and presentation deck.
 
 ![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
 
-## 🛠️ How to Use This Project
+## 🛠️ Project Workflow
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
-   ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+1. **Data Import, Exploration & Cleaning**
+   Open `Customer_Shopping_Behavior_Analysis.ipynb` — contains data import, exploration, cleaning, and the connection setup to load cleaned data into a SQL database.
 
-    This file contains:
+2. **SQL Analysis**
+   Load the cleaned data into MySQL/PostgreSQL/MS SQL Server, then run the queries in `customer_behavior_sql_queries.sql` to answer key business questions on customer segments, loyalty, and purchase drivers.
 
-      - Data Import
+3. **Power BI Dashboard**
+   Open `customer_behavior_dashboard.pbix`, connected to the SQL database, to explore the interactive dashboard built from the analysis.
 
-      - Data exploration
+4. **Report & Presentation**
+   `Business Problem Document.pdf`, `Customer Shopping Behavior Analysis.pdf`, and `Customer-Shopping-Behavior-Analysis.pptx` contain the write-up and presentation summarizing findings and recommendations.
 
-      - Data cleaning
+## 📂 Repository Contents
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+| File | Description |
+|---|---|
+| `Customer_Shopping_Behavior_Analysis.ipynb` | Python: data import, cleaning, and EDA |
+| `customer_behavior_sql_queries.sql` | SQL queries for business-question analysis |
+| `customer_behavior_dashboard.pbix` | Power BI interactive dashboard |
+| `customer_shopping_behavior.csv` | Raw dataset |
+| `Business Problem  Document.pdf` | Business problem definition |
+| `Customer Shopping Behavior Analysis.pdf` | Project report |
+| `Customer-Shopping-Behavior-Analysis.pptx` | Presentation deck |
 
-      - Create a database in SQL
+## About this project
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
-
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
-
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
-
-
-
+This project was completed as part of my data analytics portfolio, applying Python, SQL, and Power BI to a real-world style retail dataset to practice the full analytics workflow — from raw data to business recommendations.
